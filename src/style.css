@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #131316;
+}
+
+.header {
+	width: 100%;
+	height: 65px;
+	position: absolute;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	color: aliceblue;
+	background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+
+.header-logo {
+	display: flex;
+	align-items: center;
+}
+
+.header-img {
+	width: 50px;
+	margin-right: 1rem;
+}
+
+.header-title {
+	font-size: 1.5rem;
+}
