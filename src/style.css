@@ -11,7 +11,7 @@ body {
 .header {
 	width: 100%;
 	height: 65px;
-	position: absolute;
+	/* position: absolute; */
 
 	display: flex;
 	align-items: center;
@@ -33,4 +33,68 @@ body {
 
 .header-title {
 	font-size: 1.5rem;
+}
+
+.meme {
+	width: 100%;
+
+	margin-top: 2rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.meme-form {
+	width: 690px;
+
+	padding: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.meme-input {
+	width: 100%;
+	height: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.meme-input input {
+	width: 48%;
+	height: 40px;
+
+	padding: 0.7rem;
+
+	background-color: #131316;
+	color: aliceblue;
+
+	border: solid 1px #5b5b7d;
+	border-radius: 7px;
+}
+
+.meme-submit {
+	width: 100%;
+	height: 45px;
+
+	margin-top: 1rem;
+
+	font-size: 1rem;
+
+	background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+	color: aliceblue;
+
+	border: none;
+	border-radius: 7px;
+
+	transition: all 0.3s;
+}
+
+.meme-submit:hover {
+	box-shadow: 0 0 10px 0px #c87fe39e;
 }
