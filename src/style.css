@@ -43,6 +43,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 
 .meme-form {
@@ -97,4 +98,8 @@ body {
 
 .meme-submit:hover {
 	box-shadow: 0 0 10px 0px #c87fe39e;
+}
+
+.meme-img {
+	max-width: 400px;
 }
