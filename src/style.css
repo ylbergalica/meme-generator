@@ -100,6 +100,33 @@ body {
 	box-shadow: 0 0 10px 0px #c87fe39e;
 }
 
+.meme-product {
+	height: auto;
+	position: relative;
+	text-align: center;
+}
+
 .meme-img {
 	max-width: 400px;
+}
+
+.meme h2 {
+	position: absolute;
+	width: 100%;
+
+	font-size: 1.8rem;
+	font-weight:800;
+
+	color: aliceblue;
+	-webkit-text-stroke: #131316 2px;
+}
+
+.img-toptext {
+	top: 0;
+	margin-top: 5px;
+}
+
+.img-bottext {
+	bottom: 0;
+	margin-bottom: 5px;
 }
